@@ -10,4 +10,6 @@ print(len(df))
 # Split the dataset in 70 to 30 partitions (70% training and 30% test)
 train, test = train_test_split(df, test_size=0.3)
 #print(type(train), len(train), len(test))
+#print(train[:10])
+
 
